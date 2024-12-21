@@ -1,0 +1,43 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Production build
+dist/
+
+# Vite files
+*.env
+*.env.local
+*.env.*.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Temporary files
+*.tmp
+*.temp
+*.pid
+*.seed
+
+# MacOS specific files
+._*
+
+# Optional: lockfiles (if using only one package manager)
+# Uncomment only the one you aren't using.
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
