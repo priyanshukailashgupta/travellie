@@ -13,7 +13,7 @@ import Footer from "./Footer";
 
 const HomePage = () => {
   return (
-    <div>
+    <div data-scroll-section>
       <Header />
       <HeroSection />
       <SearchSection />

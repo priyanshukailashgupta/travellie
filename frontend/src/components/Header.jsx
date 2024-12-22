@@ -4,8 +4,8 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="flex justify-between items-center px-4 md:px-8 py-4 border-b">
-      <div className="text-2xl font-bold text-orange-600">triply</div>
+    <header className="flex justify-between items-center px-4 md:px-8 py-4 border-b ">
+      <div className="text-2xl font-bold text-orange-600">Safarnama</div>
       <nav className="hidden md:flex space-x-6">
         {["Home", "Tours", "Destination", "Blog", "Page", "Contact"].map(
           (item) => (
