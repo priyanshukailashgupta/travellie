@@ -43,7 +43,7 @@ if (
     
     // Upload image to Cloudinary
     const response = await cloudinary.v2.uploader.upload(image, {
-      folder: "trekNest",
+      folder: "travellie",
     });
     req.body.imgUrl = response.secure_url;
     req.body.imgPublicId = response.public_id;
@@ -117,7 +117,7 @@ if (
     const image = formatImage(req.file);
     // Upload image to Cloudinary
     const response = await cloudinary.v2.uploader.upload(image, {
-      folder: "trekNest",
+      folder: "travellie",
     });
     req.body.imgUrl = response.secure_url;
     req.body.imgPublicId = response.public_id;
